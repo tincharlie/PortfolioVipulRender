@@ -109,4 +109,4 @@ def predict2():
         return render_template("/BostonHousePrice.html", predi = error_message)
 
 if __name__ == "__main__":
-    app.run( port = 8000)
+    app.run()
